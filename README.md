@@ -6,7 +6,7 @@ This project demonstrates a scalable and automated ETL pipeline built to extract
 ## Data Flow Overview
 The pipeline starts by fetching raw music data from Spotify’s API, processes it using AWS Lambda for data extraction and transformation, and stores the results in Amazon S3. AWS Glue catalogs the data, while Athena enables querying for analysis.
 
-![ETL Pipeline Architecture] (https://github.com/avaneeshvb/Spotify-end-to-end-ETL-data-Pipeline--AWS/blob/main/Spotify%20end%20to%20end%20DE.png)
+![ETL Pipeline Architecture](https://github.com/avaneeshvb/Spotify-end-to-end-ETL-data-Pipeline--AWS/blob/main/Spotify%20end%20to%20end%20DE.png)
 
 ### 1. Extract (Spotify API via AWS Lambda)
 - **Spotify API**: The pipeline begins by pulling data (tracks, artists, albums, etc.) from Spotify using a Python script within an AWS Lambda function.
